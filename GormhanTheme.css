@@ -1,0 +1,227 @@
+/*blockquote*/
+@font-face {
+  font-family: Handlee;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/handlee/v9/-F6xfjBsISg9aMakPm3wowtKzig.woff2) ;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*body*/
+@font-face {
+  font-family: Titillium Web;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/titilliumweb/v9/NaPDcZTIAOhVxoMyOr9n_E7ffGjEGItzY5abuWI.woff2) ;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*cursive*/
+@font-face {
+  font-family: Great Vibes;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/greatvibes/v8/RWmMoKWR9v4ksMfaWd_JN9XFiaQoDmlr.woff2) ;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.user-css, .user-css p {
+  font-family: Titillium Web, Open Sans, sans serif;
+  font-size: 14px;
+}
+
+.user-css .category-list {
+ font-size: 18px;
+ line-height: 1.6;
+}
+
+.user-css blockquote {
+  font-family: Handlee, serif;
+  font-size: 20px;
+}
+
+.user-css .aloud {
+  background-color: #59363f;
+  border: 1px #d99d57 solid;
+  color: #a6a49c; /* text color */
+  padding: 20px;
+}
+
+.user-css .artist-credits {
+ background: #282024;
+}
+
+.user-css .breadcrumb {
+ margin-top: 10px; 
+ background: #282024;
+ border: 1px #d99d57 solid;
+}
+
+/* GRADIENT IN TITLE CAUSES ODD BEHAVIOR, this fixes it but takes away gradient
+.user-css .article-title h1 {
+  //this is what causes the odd behavior - if you uncomment this change to starred comments 
+  -webkit-text-fill-color: unset;
+  padding: 0 5px;
+}
+.user-css .article-title .article-title-icon {
+  float: right;
+}
+*/
+@media only screen and (min-width: 1200px) {
+  .user-css .article-title h1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+  }
+  .user-css .article-title .article-title-icon {
+    order: 1;
+    padding-right: 5px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .user-css .article-title h1 {
+    padding-left: 5px;
+  }
+  .user-css .article-title .article-title-icon {
+    float: right;
+    padding-right: 5px;
+  }
+}
+
+.user-css h1 {
+ font-family: Great Vibes, serif;
+ font-size: 70px;
+ font-weight: 500;
+ text-transform: none;
+}
+
+.user-css h2 {
+ font-family: Great Vibes, serif;
+ font-size: 45px;
+ font-weight: 300;
+ text-transform: none;
+ padding-left: 5px;
+}
+
+.user-css h3 {
+ text-transform: none;
+}
+
+.user-css h4 {
+ text-transform: none;
+}
+
+.user-css h5 {
+ text-transform: none;
+}
+
+.user-css-presentation .world-navigation-palette-trigger {
+ background: #d99d57;
+}
+
+.user-css div .backtoworld a {
+ background: #a67132;
+}
+
+.user-css div .backtoworld a:hover {
+ background: #e3aa54;
+ color: #fbf8ea;
+}
+
+.user-css-extended .nav-tabs li a {
+    font-family: Averia Serif Libre;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.user-css-extended h2 {
+    font-family: Great Vibes;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.user-css-extended a {
+    color: #9b5d53;
+}
+
+.user-css-extended a:hover {
+     color: #d99d57;
+}
+
+/* INIS BAILE MOR COLOR STYLING */
+.user-css.inis-baile-mor {
+ background: #2b3036;
+ color: #9ca4a6;
+}
+
+.user-css.inis-baile-mor p {
+ color: #9ca4a6;
+}
+
+/*links*/
+.user-css.inis-baile-mor a {
+ color: #5fb1ca;
+}
+
+.user-css.inis-baile-mor .aloud {
+  background-color: #363f59;
+  border: 1px #9bbad7 solid;
+  color: #9ca4a6; /* text color */
+}
+
+.user-css.inis-baile-mor blockquote {
+ background: #363f59;
+ border-left: 10px #9bbad7 solid;
+}
+
+.user-css.inis-baile-mor blockquote .author{
+ color: #9bbad7;
+}
+
+.user-css.inis-baile-mor h1, .user-css.inis-baile-mor h2 {
+ color: #acc8e1;
+ -webkit-text-fill-color: unset; 
+ padding: 0 5px
+/* gradient
+ background: -webkit-linear-gradient(#628495, #c8e3f0, #9bbad7, #628495);
+ -webkit-background-clip: text;
+*/
+}
+
+.user-css.inis-baile-mor .article-title .article-title-icon {
+ float: right;
+}
+
+.user-css.inis-baile-mor h3 {
+ color: #9bbad7;
+}
+
+.user-css.inis-baile-mor h4 {
+ color: #6783ae;
+}
+
+/*sidebar*/
+.user-css.inis-baile-mor .panel {
+ background: #363f59;
+}
+
+.user-css.inis-baile-mor hr {
+ border-color: #4e6273;
+}
+
+.user-css.inis-baile-mor .artist-credits {
+    background: #202228;
+}
+
+.user-css.inis-baile-mor .breadcrumb {
+    background: #202228;
+    border: 1px #9bbad7 solid;
+}
+
+.user-css-extended.inis-baile-mor .page {
+    background: #2b3036;
+    color: #9ca4a6;
+}
